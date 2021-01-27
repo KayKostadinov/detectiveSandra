@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ffcece;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #a9f7ea;
+  padding: 1rem 0;
+  text-align: center;
+  font-family: 'Marck Script', cursive;
+  font-size: 40px !important;
+  -webkit-box-shadow: 0 1px 5px #5db8a9;
+          box-shadow: 0 1px 5px #5db8a9;
+}
+
+.card {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffcece;
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -3px -3px 5px rgba(255, 255, 255, 0.7);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -3px -3px 5px rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+.btn-primary, .btn {
+  background-color: #a9f7ea;
+  color: #e79f9f;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn:hover, .btn:active {
+  background-color: #5db8a9;
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -3px -3px 5px rgba(255, 255, 255, 0.7);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -3px -3px 5px rgba(255, 255, 255, 0.7);
+}
+/*# sourceMappingURL=main.css.map */

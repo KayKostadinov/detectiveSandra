@@ -1,0 +1,46 @@
+
+$salmon: #ffcece;
+$salmon-dark: #e79f9f;
+$cyan: #a9f7ea;
+$cyan-dark: #5db8a9;
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $salmon;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: $cyan;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px !important;
+    box-shadow: 0 1px 5px rgba($color: $cyan-dark, $alpha: 1);
+}
+
+.card {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: $salmon;
+    box-shadow: 3px 3px 5px rgba($color: black, $alpha: .3), -3px -3px 5px rgba($color: white, $alpha: .7);
+    font-weight: 500;
+}
+
+.btn-primary, .btn {
+    background-color: $cyan;
+    color: $salmon-dark;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+
+    &:hover, &:active {
+        background-color: $cyan-dark;
+        box-shadow: 3px 3px 5px rgba($color: black, $alpha: .3), -3px -3px 5px rgba($color: white, $alpha: .7);
+    }
+}
